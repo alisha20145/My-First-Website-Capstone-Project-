@@ -1,0 +1,37 @@
+body{
+    background-color:lightskyblue;
+    margin:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.topnav{
+    background-color:white;
+    overflow:hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:1200;
+}
+.topnav a{
+    float:right;
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a :hover{
+    background-color: white;
+    color:black;
+}
+.topnav a.active{
+    background-color: lightgreen;
+    color:white;
+}
+.school-logo{
+    width:20px;
+    height:280px;
+    border-radius:50%;
+}
+.school-logo-text{
+    color:rgb(88, 88, 252);
+    font-family: 'Courier New', Courier, monospace;
+}
