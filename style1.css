@@ -35,3 +35,30 @@ body{
     color:rgb(88, 88, 252);
     font-family: 'Courier New', Courier, monospace;
 }
+.slider{
+    position:relative;
+    width:100%;
+    margin: 0 auto;
+    max-width:800px;
+    overflow: hidden;
+}
+.slider img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.controls{
+    position:absolute;
+    top:50%;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.controls button{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:1.25rem;
+    padding:7px;
+    cursor:pointer;
+}
