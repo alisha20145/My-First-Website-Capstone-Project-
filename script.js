@@ -1,11 +1,11 @@
-const images=["pic1.jpg","pic2.jpg","pic3.png","pic4.jpg"];
+const images=["pic1.jpeg","pic2.jpeg","pic3.jpeg","pic4.jpeg", ];
 let current=0;
 
 const sliderimg=document.getElementById("slider-img");
 
 function showslide(index)
 {
-    sliderimg.src=[index];
+    sliderimg.src=images[index];
 }
 
 function nextSlide()
